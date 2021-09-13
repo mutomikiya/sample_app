@@ -62,4 +62,5 @@ Rails.application.configure do
   
   # Cloud9 への接続を許可する
   config.hosts.clear
+  config.web_console.whitelisted_ips = '126.243.111.53' #追記
 end
